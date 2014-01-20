@@ -1,0 +1,29 @@
+{
+   "manifest_version": 2,
+   "background": { "page":"background.html"},
+   "browser_action": {
+      "default_icon":"logo_gray19.png",
+      "default_title": "__MSG_extName__"
+   },
+   "options_page": "web.html",
+   "default_locale": "en",
+   "description": "__MSG_extDes__",
+   "icons": {
+      "128": "ie128.png",
+      "16": "ie16.png",
+      "32": "ie32.png",
+      "48": "ie48.png"
+   },
+   "name": "__MSG_extName__",
+   "content_scripts": [
+     {
+      "matches": ["http://*/*","https://*/*","file://*"],
+      "js": ["api.js", "content_script.js"],
+      "run_at": "document_start"
+     }
+    ],
+   "permissions": ["contextMenus","tabs","http://*/*","https://*/*", "storage"],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "plugins": [ { "path": "plugin/npietab2.dll", "public": true } ],
+   "version": "1.1.0"
+}

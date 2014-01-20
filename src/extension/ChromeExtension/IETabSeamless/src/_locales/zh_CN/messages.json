@@ -1,0 +1,47 @@
+{
+   "extName": {
+      "message": "\u65E0\u7F1DIE Tab"
+   },
+   "extDes": {
+      "message": "\u5728Chrome\u4E2D\u4F7F\u7528IE\u5185\u6838\u6D4F\u89C8\u7F51\u9875\u3002\u65E0\u7F1D\u3002"
+   },
+   "openInIeCore": {
+      "message": "\u5728\u65E0\u7F1DIE Tab\u4E2D\u6253\u5F00\u94FE\u63A5(&I)"
+   },
+   "saveSuccessed":{
+      "message": "\u4FDD\u5B58\u6210\u529F\uFF01"
+   },
+   "ieTabSeamlessTitle2":{
+      "message": "\u65E0\u7F1DIE Tab - "
+   },
+   "options":{
+      "message": "\u9009\u9879"
+   },
+   "enableText":{
+      "message": "\u6253\u5F00\u81EA\u52A8\u5207\u6362\u6A21\u5F0F"
+   },
+   "autoUrls":{
+      "message": "\u81EA\u52A8\u5207\u6362\u5230IE\u7684Url\uFF1A"
+   },
+   "autoRuleDescription1":{
+      "message": "\u6BCF\u4E2AUrl\u89C4\u5219\u7528\u4E00\u884C\u3002"
+   },
+   "autoRuleDescription2":{
+      "message": "\u53EF\u4EE5\u4F7F\u7528\u901A\u914D\u7B26(*)\uFF0C\u6BD4\u5982\uFF1A"
+   },
+   "autoRuleDescription3":{
+      "message": "\u4F60\u4E5F\u53EF\u4EE5\u4F7F\u7528\u6B63\u5219\u8868\u8FBE\u5F0F\uFF0C\u7528\u201Cr/\u201D\u4F5C\u4E3A\u524D\u7F00\uFF0C\u5982\uFF1A"
+   },
+   "autoUrlsExcept":{
+      "message": "\u4F8B\u5916Url\uFF1A"
+   },
+   "autoRuleExceptDescription1":{
+      "message": "\u53EA\u8981\u7B26\u5408\u4F8B\u5916Url\u7684\u89C4\u5219\uFF0C\u5C31\u4E0D\u4F1A\u81EA\u52A8\u5207\u6362\u3002"
+   },
+   "autoRuleExceptDescription2":{
+      "message": "Url\u89C4\u5219\u8DDF\u4E0A\u9762\u7684\u4E00\u6837\u3002"
+   },
+   "save":{
+      "message": "\u4FDD\u5B58"
+   }
+}

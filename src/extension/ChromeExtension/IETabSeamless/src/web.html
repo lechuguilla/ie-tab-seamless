@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title>IE Tab Seamless - Options</title>
+    <style>
+        #main{width:740px; position:relative; margin:10px auto; background-color:#eee; border:1px solid #ccc;border-radius:8px;padding:20px;}
+        #msg{position:absolute;opacity:0.0; left:300px;width:160px;text-align:center; background-color:#ffff00;padding:10px;border-radius:10px;}
+        #tabs{text-align:center;}
+        #autoBlock{margin:20 0px; padding:10px; border-radius:8px; background-color:#ddd;}
+        .rulesBlock{margin:20px 0px;}
+        .urlRules{width:400px; height:100px; word-wrap:normal; margin-top:5px;}
+        .rulesContainer{float:left; width:45%; }
+        .rulesDescription{float:right; width:43%; font-size:12px;}
+        .ruleExample{color:#777;}
+        #autoUrls{height:150px; }
+        #autoExceptUrls{height:100px; }
+        #saveButtonContainer{text-align:center;clear:both;margin-top:20px;}
+
+        @-webkit-keyframes fadeIn {from{opacity:0.0}to{opacity:1.0}}
+        @-webkit-keyframes fadeOut {from{opacity:1.0}to{opacity:0.0}}
+        .fadeInClass{-webkit-animation: fadeIn 0.3s;}
+        .fadeOutClass{-webkit-animation: fadeOut 0.3s;}
+    </style>
+    <script type="text/javascript" src="option.js">
+    </script>
+</head>
+
+<body>
+    <div id="main">
+        <div id="msg" i18n="saveSuccessed"></div>
+        <div id="tabs"><span i18n="ieTabSeamlessTitle2"></span><span style="font-weight:bold;" i18n="options"></span></div>
+        <div id="content">
+            <div id="autoBlock">
+                <div><label for="ckbEnableAuto"><input type="checkbox" id="ckbEnableAuto" /> <span i18n="enableText"></span></label></div>
+                <div class="rulesBlock">
+                    <div i18n="autoUrls"></div>
+                    <div class="rulesDescription">
+                    <br />
+                    <span i18n="autoRuleDescription1"></span>
+                    <br />
+                    <span i18n="autoRuleDescription2"></span><br />
+                    <span class="ruleExample">http://www.microsoft.com/*</span>
+                    <br />
+                    <br />
+                    <span i18n="autoRuleDescription3"></span>
+                    <br />
+                    <span class="ruleExample">r/http.*</span>
+                    </div>
+                    <div class="rulesContainer">
+                        <textarea id="autoUrls" class="urlRules"></textarea>
+                    </div>
+                </div>
+                <div style="clear:both;"></div>
+                <div class="rulesBlock">
+                    <div i18n="autoUrlsExcept"></div>
+                    <div class="rulesDescription">
+                    <br />
+                    <span i18n="autoRuleExceptDescription1"></span>
+                    <br />
+                    <br />
+                    <span i18n="autoRuleExceptDescription2"></span>
+                    </div>
+                    <div class="rulesContainer">
+                        <textarea id="autoExceptUrls" class="urlRules"></textarea>
+                    </div>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+        <div id="saveButtonContainer">
+            <button id="btnSave" i18n="save">Save</button>
+        </div>
+    </div>
+</body>
+</html>

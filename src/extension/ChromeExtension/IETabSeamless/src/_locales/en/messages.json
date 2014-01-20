@@ -1,0 +1,47 @@
+{
+   "extName": {
+      "message": "IE Tab Seamless"
+   },
+   "extDes": {
+      "message": "IE core inside Chrome.Seamless."
+   },
+   "openInIeCore": {
+      "message": "Open link in &IE Tab Seamless"
+   },
+   "saveSuccessed":{
+      "message": "Save successed!"
+   },
+   "ieTabSeamlessTitle2":{
+      "message": "IE Tab Seamless - "
+   },
+   "options":{
+      "message": "Options"
+   },
+   "enableText":{
+      "message": "Enable auto switch to IE mode"
+   },
+   "autoUrls":{
+      "message": "Auto urls:"
+   },
+   "autoRuleDescription1":{
+      "message": "Per url rule in one line."
+   },
+   "autoRuleDescription2":{
+      "message": "Here can use wildcard '*' like:"
+   },
+   "autoRuleDescription3":{
+      "message": "And you can use regular expression prefix with 'r/' like:"
+   },
+   "autoUrlsExcept":{
+      "message": "Auto url exceptions:"
+   },
+   "autoRuleExceptDescription1":{
+      "message": "They will be not switch to IE mode even if they are match in Auto urls."
+   },
+   "autoRuleExceptDescription2":{
+      "message": "The url rule is same to 'Auto urls'."
+   },
+   "save":{
+      "message": "Save"
+   }
+}
